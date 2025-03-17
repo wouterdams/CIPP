@@ -194,7 +194,7 @@ export const CippTenantSelector = (props) => {
           },
           {
             label: "Exchange Portal",
-            link: `https://admin.exchange.microsoft.com/?landingpage=homepage&form=mac_sidebar&delegatedOrg=${currentTenant?.value}`,
+            link: `https://https://admin.cloud.microsoft/exchange?delegatedOrg=${currentTenant?.value}`,
             icon: <Mail />,
           },
           {
